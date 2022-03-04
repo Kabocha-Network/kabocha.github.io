@@ -98,7 +98,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/kabocha-network/kabocha-network.github.io/edit/",
-          routeBasePath: "/",
+          routeBasePath: "/docs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
