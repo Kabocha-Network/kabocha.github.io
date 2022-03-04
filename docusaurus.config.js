@@ -9,7 +9,7 @@ module.exports = {
 
   favicon: "img/favicon.ico",
   organizationName: "kabocha-network", // Usually your GitHub org/user name.
-  projectName: "kabocha-docs", // Usually your repo name.
+  projectName: "kabocha-network.github.io", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Kabocha",
@@ -97,7 +97,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/kabocha-network/kabocha-docs/edit/master/website/",
+          editUrl: "https://github.com/kabocha-network/kabocha-network.github.io/edit/",
           routeBasePath: "/",
         },
         theme: {
