@@ -8,7 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
 
   favicon: "img/favicon.ico",
-  organizationName: "kabocha-team", // Usually your GitHub org/user name.
+  organizationName: "kabocha-network", // Usually your GitHub org/user name.
   projectName: "kabocha-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -26,7 +26,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/kabocha-network/docs",
+          href: "https://github.com/kabocha-network/kabocha-network.github.io",
           label: "GitHub",
           position: "right",
         },
