@@ -1,22 +1,22 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "RMRK docs",
-  tagline: "Documentation for RMRK",
-  url: "https://docs.rmrk.app",
+  title: "Kabocha docs",
+  tagline: "Documentation for Kabocha",
+  url: "https://docs.kabocha.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
   favicon: "img/favicon.ico",
-  organizationName: "rmrk-team", // Usually your GitHub org/user name.
-  projectName: "rmrk-docs", // Usually your repo name.
+  organizationName: "kabocha-team", // Usually your GitHub org/user name.
+  projectName: "kabocha-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "RMRK",
+      title: "Kabocha",
       logo: {
-        alt: "RMRK logo",
+        alt: "Kabocha logo",
         src: "img/tg_main.png",
-        href: "https://rmrk.app",
+        href: "https://kabocha.network",
       },
       items: [
         {
@@ -26,7 +26,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/rmrk-team/rmrk-docs",
+          href: "https://github.com/kabocha-network/docs",
           label: "GitHub",
           position: "right",
         },
@@ -39,20 +39,20 @@ module.exports = {
           title: "Info",
           items: [
             {
-              label: "RMRK.app web",
-              href: "https://rmrk.app",
+              label: "Kabocha.network web",
+              href: "https://kabocha.network",
             },
             {
-              label: "Kanaria",
-              href: "https://kanaria.rmrk.app",
+              label: "New Futures NFT",
+              href: "https://new-futures.kabocha.network",
             },
             {
-              label: "Singular Marketplace",
-              href: "https://singular.rmrk.app",
+              label: "Edgeware",
+              href: "https://edgewa.re",
             },
             {
-              label: "RMRK Tokens",
-              href: "https://singular.rmrk.app/tokens",
+              label: "Network Publiks",
+              href: "https://publike.kabocha.network",
             },
           ],
         },
@@ -61,19 +61,11 @@ module.exports = {
           items: [
             {
               label: "Telegram",
-              href: "https://t.me/rmrkapp",
+              href: "https://t.me/heykabocha",
             },
             {
               label: "Telegram (implementers chat)",
-              href: "https://t.me/rmrkimpl",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/rmrkapp",
-            },
-            {
-              label: "Newsletter",
-              href: "https://news.nft.review",
+              href: "https://t.me/kabochaofficial",
             },
           ],
         },
@@ -82,20 +74,20 @@ module.exports = {
           items: [
             {
               label: "Specs GitHub",
-              href: "https://github.com/rmrk-team/rmrk-spec",
+              href: "https://github.com/kabocha-network/kabocha-spec",
             },
             {
               label: "Docs GitHub",
-              href: "https://github.com/rmrk-team/rmrk-docs",
+              href: "https://github.com/Kabocha-network/kabocha-docs",
             },
             {
               label: "Tools GitHub",
-              href: "https://github.com/rmrk-team/rmrk-tools",
+              href: "https://github.com/Kabocha-network/kabocha-tools",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RMRK Team.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kabocha Team.`,
     },
   },
   presets: [
@@ -105,7 +97,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/rmrk-team/rmrk-docs/edit/master/website/",
+          editUrl: "https://github.com/kabocha-network/kabocha-docs/edit/master/website/",
           routeBasePath: "/",
         },
         theme: {

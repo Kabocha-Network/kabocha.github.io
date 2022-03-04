@@ -2,28 +2,29 @@ module.exports = {
   docs: [
     {
       type: "category",
-      label: "RMRK Documentation",
+      label: "Kabocha Documentation",
       items: ["getting-started", "syncing"],
     },
     {
       type: "category",
-      label: "RMRK 1.0 NFTs",
-      items: ["rmrk1"],
+      label: "Quickstart",
+      items: ["quickstart"],
     },
     {
       type: "category",
-      label: "RMRK 2.0 NFTs",
-      items: ["rmrk2"],
+      label: "How To's",
+      items: ["howtos"],
+    },
+  
+    {
+      type: "category",
+      label: "Kabocha 2.1 NFTs",
+      items: ["kabocha21"],
     },
     {
       type: "category",
-      label: "RMRK 2.1 NFTs",
-      items: ["rmrk21"],
-    },
-    {
-      type: "category",
-      label: "RMRK 3.0 NFTs",
-      items: ["rmrk3"],
+      label: "Kabocha 3.0 NFTs",
+      items: ["kabocha3"],
     },
   ],
 };
