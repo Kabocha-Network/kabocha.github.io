@@ -2,8 +2,8 @@
 module.exports = {
   title: "Kabocha docs",
   tagline: "Documentation for Kabocha",
-  url: "https://docs.kabocha.network",
-  baseUrl: "/docs",
+  url: "https://kabocha-network.github.io",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 

@@ -15,7 +15,6 @@ module.exports = {
       label: "How To's",
       items: ["howtos"],
     },
-  
     {
       type: "category",
       label: "Kabocha 2.1 NFTs",
